@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page SocialPulse</title>
+    <!-- CSS Link----------------------------------- -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome CDN Link ---------------------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- -------------------------------------------- -->
+  </head>
+  <body>
+    <!--Navbar Start  -->
+    <nav>
+      <div class="nav-left">
+        <a href="index.html">
+        <img src="assets/Icons/logo-rem.png" class="logo" /></a>
+        <ul>
+          <li><img src="assets/Icons/notification.png" /></li>
+          <li><img src="assets/Icons/inbox.png" /></li>
+          <li><img src="assets/Icons/video.png" /></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="assets/Icons/search.png" alt="" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="assets/OtherImg/mem-two.jpg" alt="" />
+        </div>
+      </div>
+
+      <!--------------- Setting Section Start--------------------->
+      <div class="settings-menu">
+        <div id="dark-btn">
+          <span></span>
+        </div>
+
+        <div class="setting-menu-inner">
+          <div class="user-profile">
+            <img src="assets/OtherImg/mem-two.jpg" />
+            <div>
+              <p>John Mike</p>
+              <a href="profile.html">See Your Profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="assets/Icons/feedback.png" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help Up to improve the new design</a>
+            </div>
+          </div>
+          <hr />
+
+          <div class="settings-links">
+            <img src="assets/Icons/setting.png" class="settings-icon" />
+            <a href="#"
+              >Settings & Privacy
+              <img src="assets/Icons/right-arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="assets/Icons/help.png" class="settings-icon" />
+            <a href="#"
+              >Help & Support<img
+                src="assets/Icons/right-arrow.png"
+                width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="assets/Icons/display.png" class="settings-icon" />
+            <a href="#"
+              >Display & Accessibility
+              <img src="assets/Icons/right-arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="assets/Icons/logout.png" class="settings-icon" />
+            <a href="#"
+              >Logout <img src="assets/Icons/right-arrow.png" width="10px"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <!-- ------------- Setting Section End------------------- -->
+    </nav>
+    <!--Navbar End -->
+
+    <!-- Profile Page Section Start -->
+
+    <div class="profile-container">
+      <img src="assets/OtherImg/cover-2.jpg" class="cover-img" />
+      <div class="profile-details">
+        <div class="pd-left">
+          <div class="pd-row">
+            <img src="assets/OtherImg/mem-two.jpg" class="pd-img" />
+            <div>
+              <h3>John Mike</h3>
+              <p>575 Friends - 120 Mutual</p>
+              <img src="assets/OtherImg/mem-one.jpg" alt="" />
+              <img src="assets/OtherImg/mem-three.jpg" alt="" />
+              <img src="assets/OtherImg/mem-seven.jpg" alt="" />
+              <img src="assets/OtherImg/mem-five.jpg" alt="" />
+              <img src="assets/OtherImg/mem-six.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="pd-right">
+          <button type="button">
+            <img src="assets/Icons/addFriend.png" />Friend
+          </button>
+          <button type="button">
+            <img src="assets/Icons/messege.png" />Message
+          </button>
+          <br />
+          <a href="#"><img src="assets/Icons/threedot.png" alt="" /></a>
+        </div>
+      </div>
+
+      <div class="profile-info">
+        <div class="info-col">
+
+<div class="profile-intro">
+    <h3>Intro</h3>
+    <p class="intro-text">The best way to predict the future is to create it. </p>
+    <hr>
+
+    <ul>
+        <li><img src="assets/Icons/profile-job.svg" > Front-End Developer at Nike</li>
+        <li><img src="assets/Icons/profile-college.svg" >Studied at LPU</li>
+        <li><img src="assets/Icons/school-profile.svg"> Went to DPS Mumbai (MP)</li>
+        <li><img src="assets/Icons/location-profile.svg" >Lives in London, England</li>
+        <li><img src="assets/Icons/house-profile.svg">From Mumbai, India</li>
+
+    </ul>
+</div>
+
+<div class="profile-intro">
+
+  <div class="title-box">
+    <h3>Photos</h3>
+  <a href="#">All Photos</a>
+  </div>
+
+  <div class="photo-box">
+    <div><img src="assets/OtherImg/photo-six.jpg"></div>
+    <div><img src="assets/OtherImg/photo-five.jpg"></div>
+    <div><img src="assets/OtherImg/photo-four.jpg"></div>
+    <div><img src="assets/OtherImg/photo-three.jpg"></div>
+    <div><img src="assets/OtherImg/photo-two.jpg"></div>
+    <div><img src="assets/OtherImg/photo-one.jpg"></div>
+  </div>
+</div>
+
+<div class="profile-intro">
+
+  <div class="title-box">
+    <h3>Friends</h3>
+  <a href="#">All Friends</a>
+  </div>
+  <p>575 (120 Mutual)</p>
+
+  <div class="friends-box">
+    <div><img src="assets/OtherImg/mem-one.jpg"><p>Charu G.</p></div>
+    <div><img src="assets/OtherImg/photo-14.jpg"><p>Pooja Verma</p></div>
+    <div><img src="assets/OtherImg/photo-7.jpg"><p>Ricky Rao</p></div>
+    <div><img src="assets/OtherImg/photo-13.jpg"> <p>Maria Joseph</p></div>
+    <div><img src="assets/OtherImg/photo-8.jpg"> <p>N.Chandra</p></div>
+    <div><img src="assets/OtherImg/photo-12.jpg"> <p> Inaya Ali </p></div>
+    <div><img src="assets/OtherImg/photo-9.jpg"><p>Boris P.</p></div>
+    <div><img src="assets/OtherImg/photo-11.jpg"> <p>Alessia M</p></div>
+    <div><img src="assets/OtherImg/photo-10.jpg"><p>Nasser Japha </p></div>
+    <div><img src="assets/OtherImg/photo-six.jpg"><p>Aarav S.</p></div>
+    <div><img src="assets/OtherImg/photo-last-two.jpg"><p>T.Darsh</p></div>
+    <div><img src="assets/OtherImg/photo-last.jpg"><p>Hinata</p></div>
+  </div>
+</div>
+
+</div>
+
+        <div class="post-col">
+            <div class="write-post-container">
+                <div class="user-profile">
+                  <img src="assets/OtherImg/mem-two.jpg" />
+                  <div>
+                    <p>John Mike</p>
+                    <small>Public <i class="fas fa-caret-down"></i></small>
+                  </div>
+                </div>
+      
+                <div class="post-input-container">
+                  <textarea
+                    rows="3"
+                    placeholder="What's on your mind John?"
+                  ></textarea>
+      
+                  <div class="add-post-links">
+                    <a href="#"
+                      ><img src="assets/Icons/live-video.png" />Live Video</a
+                    >
+                    <a href="#"><img src="assets/Icons/camera.png" />Photo/Video</a>
+                    <a href="#"
+                      ><img src="assets/Icons/feeling.png" />Feeling/Activity</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="post-container">
+                <div class="post-row">
+                  <div class="user-profile">
+                    <img src="assets/OtherImg/mem-two.jpg" />
+                    <div>
+                      <p>John Mike</p>
+                      <span>22 August 2023, 10:23 AM</span>
+                    </div>
+                  </div>
+                  <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+      
+                <p class="post-text">
+                  <span>Stay afraid, but do it anyway.</span> What's important is the
+                  action. You don’t have to wait to be confident. Just do it and
+                  eventually the confidence will follow.
+                  <a href="#">#Carrie Fisher</a> <a href="#">#Motivational quotes</a>
+                </p>
+                <img src="assets/OtherImg/feed-two.jpg" class="post-img" />
+      
+                <div class="post-row">
+                  <div class="activity-icons">
+                    <div><img src="assets/Icons/like-blue.png " />111</div>
+                    <div><img src="assets/Icons/comments.png " />33</div>
+                    <div><img src="assets/Icons/share.png " />18</div>
+                  </div>
+                  <div class="post-profile-icon">
+                    <img src="assets/OtherImg/mem-two.jpg" /><i
+                      class="fas fa-caret-down"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <!-- ----------------------------------------- -->
+      
+              <div class="post-container">
+                <div class="post-row">
+                  <div class="user-profile">
+                    <img src="assets/OtherImg/mem-two.jpg" />
+                    <div>
+                      <p>John Mike</p>
+                      <span>18 july 2023, 2:02 PM</span>
+                    </div>
+                  </div>
+                  <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+      
+                <p class="post-text">
+                  <span
+                    >Without ambition one starts nothing. Without work one finishes
+                    nothing.</span
+                  >
+                  The prize will not be sent to you. You have to win it.
+                  <a href="#">#Ralph Waldo Emerson</a>
+                  <a href="#">#Motivational quotes</a>
+                </p>
+                <img src="assets/OtherImg/feed-five.jpg" class="post-img" />
+      
+                <div class="post-row">
+                  <div class="activity-icons">
+                    <div><img src="assets/Icons/like-blue.png " />202</div>
+                    <div><img src="assets/Icons/comments.png " />58</div>
+                    <div><img src="assets/Icons/share.png " />32</div>
+                  </div>
+                  <div class="post-profile-icon">
+                    <img src="assets/OtherImg/mem-three.jpg" /><i
+                      class="fas fa-caret-down"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <!-- --------------------------------- -->
+              <div class="post-container">
+                <div class="post-row">
+                  <div class="user-profile">
+                    <img src="assets/OtherImg/mem-two.jpg" />
+                    <div>
+                      <p>John Mike</p>
+                      <span>28 June 2023, 10:23 AM</span>
+                    </div>
+                  </div>
+                  <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+      
+                <p class="post-text">
+                  <span>
+                    Sunshine is delicious, rain is refreshing, wind braces us up</span
+                  >, snow is exhilarating; there is really no such thing as bad
+                  weather, only different kinds of good weather.
+                  <a href="#">#John Ruskin</a> <a href="#">#Motivational quotes</a>
+                </p>
+                <img src="assets/OtherImg/status-three.jpg" class="post-img" />
+      
+                <div class="post-row">
+                  <div class="activity-icons">
+                    <div><img src="assets/Icons/like-blue.png " />452</div>
+                    <div><img src="assets/Icons/comments.png " />1528</div>
+                    <div><img src="assets/Icons/share.png " />98</div>
+                  </div>
+                  <div class="post-profile-icon">
+                    <img src="assets/OtherImg/mem-two.jpg" /><i
+                      class="fas fa-caret-down"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- ------------------------------ -->
+              <div class="post-container">
+                <div class="post-row">
+                  <div class="user-profile">
+                    <img src="assets/OtherImg/mem-two.jpg" />
+                    <div>
+                      <p>John Mike</p>
+                      <span>21 June 2023, 9:23 AM</span>
+                    </div>
+                  </div>
+                  <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+      
+                <p class="post-text">
+                  <span
+                    >Yoga is the settling of the mind into silence. When the mind has
+                    settled</span
+                  >, we are established in our essential nature, which is unbounded
+                  Consciousness. Our essential nature is usually overshadowed by the
+                  activity of the mind. <a href="#">#Patanjali</a>
+                  <a href="#">#World Yoga Day</a>
+                </p>
+                <img src="assets/OtherImg/feed-three.jpg" class="post-img" />
+      
+                <div class="post-row">
+                  <div class="activity-icons">
+                    <div><img src="assets/Icons/like-blue.png " />322</div>
+                    <div><img src="assets/Icons/comments.png " />128</div>
+                    <div><img src="assets/Icons/share.png " />88</div>
+                  </div>
+                  <div class="post-profile-icon">
+                    <img src="assets/OtherImg/mem-three.jpg" /><i
+                      class="fas fa-caret-down"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <!-- --------------------------------------------------------------- -->
+              <div class="post-container">
+                <div class="post-row">
+                  <div class="user-profile">
+                    <img src="assets/OtherImg/mem-two.jpg" />
+                    <div>
+                      <p>John Mike</p>
+                      <span>15 May 2023, 11:23 PM</span>
+                    </div>
+                  </div>
+                  <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+      
+                <p class="post-text">
+                  <span>Do not dwell in the past, do not dream of the future</span> ,
+                  concentrate the mind on the present moment. Read more at
+                  https://www.brainyquote.com/authors/buddha-quotes
+                  <a href="#">#Budha</a> <a href="#">#Motivational quotes</a>
+                </p>
+                <img src="assets/OtherImg/feed-four.jpg" class="post-img" />
+      
+                <div class="post-row">
+                  <div class="activity-icons">
+                    <div><img src="assets/Icons/like-blue.png " />182</div>
+                    <div><img src="assets/Icons/comments.png " />79</div>
+                    <div><img src="assets/Icons/share.png " />40</div>
+                  </div>
+                  <div class="post-profile-icon">
+                    <img src="assets/OtherImg/mem-two.jpg" /><i
+                      class="fas fa-caret-down"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <!-- --------------------------------------------------------------------- -->
+              <div class="post-container">
+                <div class="post-row">
+                  <div class="user-profile">
+                    <img src="assets/OtherImg/mem-two.jpg" />
+                    <div>
+                      <p>John Mike</p>
+                      <span>05 May 2023, 8:43 PM</span>
+                    </div>
+                  </div>
+                  <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+      
+                <p class="post-text">
+                  <span>Look at the sky. We are not alone.</span> The whole universe
+                  is friendly to us and conspires only to give the best to those who
+                  dream and work. <a href="#">#A. P. J. Abdul Kalam</a>
+                  <a href="#">#Motivational quotes</a>
+                </p>
+                <img src="assets/OtherImg/feed-six.jpg" class="post-img" />
+      
+                <div class="post-row">
+                  <div class="activity-icons">
+                    <div><img src="assets/Icons/like-blue.png " />212</div>
+                    <div><img src="assets/Icons/comments.png " />59</div>
+                    <div><img src="assets/Icons/share.png " />30</div>
+                  </div>
+                  <div class="post-profile-icon">
+                    <img src="assets/OtherImg/mem-two.jpg" /><i
+                      class="fas fa-caret-down"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <!-- --------------------------------------------------------------------- -->
+              <div class="post-container">
+                <div class="post-row">
+                  <div class="user-profile">
+                    <img src="assets/OtherImg/mem-two.jpg" />
+                    <div>
+                      <p>John Mike</p>
+                      <span>01 May 2023, 11:23 PM</span>
+                    </div>
+                  </div>
+                  <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+      
+                <p class="post-text">
+                  <span> If you believe in yourself</span> and have dedication and
+                  pride - and never quit, you'll be a winner. The price of victory is
+                  high but so are the rewards. <a href="#">#Bear Bryant</a>
+                  <a href="#">#Motivational quotes</a>
+                </p>
+                <img src="assets/OtherImg/feed-seven.jpg" class="post-img" />
+      
+                <div class="post-row">
+                  <div class="activity-icons">
+                    <div><img src="assets/Icons/like-blue.png " />262</div>
+                    <div><img src="assets/Icons/comments.png " />42</div>
+                    <div><img src="assets/Icons/share.png " />50</div>
+                  </div>
+                  <div class="post-profile-icon">
+                    <img src="assets/OtherImg/mem-two.jpg" /><i
+                      class="fas fa-caret-down"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <!-- --------------------------------------------------------------------- -->
+              <div class="post-container">
+                <div class="post-row">
+                  <div class="user-profile">
+                    <img src="assets/OtherImg/mem-two.jpg" />
+                    <div>
+                      <p>John Mike</p>
+                      <span>27 April 2023, 05:17 PM</span>
+                    </div>
+                  </div>
+                  <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+      
+                <p class="post-text">
+                  <span>As a developer</span>, it's a great feeling knowing you have
+                  made an impact. There's also a lot of responsibility that goes with
+                  that: you have to really put the city's needs first. It's not all
+                  about making money. <a href="#">#Bear Bryant</a>
+                  <a href="#">#Motivational quotes</a>
+                </p>
+                <img src="assets/OtherImg/feed-eight.jpg" class="post-img" />
+      
+                <div class="post-row">
+                  <div class="activity-icons">
+                    <div><img src="assets/Icons/like-blue.png " />142</div>
+                    <div><img src="assets/Icons/comments.png " />22</div>
+                    <div><img src="assets/Icons/share.png " />15</div>
+                  </div>
+                  <div class="post-profile-icon">
+                    <img src="assets/OtherImg/mem-two.jpg" /><i
+                      class="fas fa-caret-down"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <!-- --------------------------------------------------------------------- -->
+              <div class="post-container">
+                <div class="post-row">
+                  <div class="user-profile">
+                    <img src="assets/OtherImg/mem-two.jpg" />
+                    <div>
+                      <p>John Mike</p>
+                      <span>12 April 2023, 02:56 PM</span>
+                    </div>
+                  </div>
+                  <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+      
+                <p class="post-text">
+                  <span>I think music in itself is healing.</span> It's an explosive
+                  expression of humanity. It's something we are all touched by. No
+                  matter what culture we're from, everyone loves music.
+                  <a href="#">#Billy Joel</a> <a href="#">#Motivational quotes</a>
+                </p>
+                <img src="assets/OtherImg/feed-nine.jpg" class="post-img" />
+      
+                <div class="post-row">
+                  <div class="activity-icons">
+                    <div><img src="assets/Icons/like-blue.png " />173</div>
+                    <div><img src="assets/Icons/comments.png " />36</div>
+                    <div><img src="assets/Icons/share.png " />23</div>
+                  </div>
+                  <div class="post-profile-icon">
+                    <img src="assets/OtherImg/mem-two.jpg" /><i
+                      class="fas fa-caret-down"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <!-- --------------------------------------------------------------------- -->
+              <div class="post-container">
+                <div class="post-row">
+                  <div class="user-profile">
+                    <img src="assets/OtherImg/mem-two.jpg" />
+                    <div>
+                      <p>John Mike</p>
+                      <span>10 March 2023, 12:09 PM</span>
+                    </div>
+                  </div>
+                  <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+      
+                <p class="post-text">
+                  <span>Books are the carriers of civilization</span>. Without books,
+                  history is silent, literature dumb, science crippled, thought and
+                  speculation at a standstill. <a href="#">#Barbara W. Tuchman</a>
+                  <a href="#">#Motivational quotes</a>
+                </p>
+                <img src="assets/OtherImg/feed-ten.jpg" class="post-img" />
+      
+                <div class="post-row">
+                  <div class="activity-icons">
+                    <div><img src="assets/Icons/like-blue.png " />320</div>
+                    <div><img src="assets/Icons/comments.png " />86</div>
+                    <div><img src="assets/Icons/share.png " />45</div>
+                  </div>
+                  <div class="post-profile-icon">
+                    <img src="assets/OtherImg/mem-two.jpg" /><i
+                      class="fas fa-caret-down"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <!-- --------------------------------------------------------------------- -->
+              <button type="button" class="load-more-btn">Load More</button>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- Profile Page Section End -->
+
+    <!--Footer section start  -->
+
+    <div class="footer">
+      <p>Copyright 2023 -Developer Ranjit</p>
+    </div>
+
+    <!--Footer section End  -->
+
+    <!-- Script File link -->
+    <script src="script.js"></script>
+    <!-- ------------------------- -->
+  </body>
+</html>
